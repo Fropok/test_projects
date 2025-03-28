@@ -1,0 +1,78 @@
+
+-----
+Test: tests/test_pet_api.py::TestPetApi::test_pet[281273083-1-BARNI-Cat] (call)
+Time: 2025-03-28 20:07:09.472325
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/pet
+
+Response code: 200
+Response text: {"id":281273083,"category":{"id":1,"name":"BARNI"},"name":"Cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Fri, 28 Mar 2025 17:07:10 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_pet_api.py::TestPetApi::test_pet[281273083-1-BARNI-Cat] (call)
+Time: 2025-03-28 20:07:10.752761
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/281273083
+
+Response code: 200
+Response text: {"id":281273083,"category":{"id":1,"name":"BARNI"},"name":"Cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Fri, 28 Mar 2025 17:07:11 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_pet_api.py::TestPetApi::test_pet[281273083-1-BARNI-Cat] (call)
+Time: 2025-03-28 20:07:11.859764
+Request method: PUT
+Request URL: https://petstore.swagger.io/v2/pet
+
+Response code: 200
+Response text: {"id":281273083,"category":{"id":2,"name":"BARNIUpdate"},"name":"CatUpdate","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Fri, 28 Mar 2025 17:07:13 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_pet_api.py::TestPetApi::test_pet[281273083-1-BARNI-Cat] (call)
+Time: 2025-03-28 20:07:13.188751
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/281273083
+
+Response code: 200
+Response text: {"id":281273083,"category":{"id":2,"name":"BARNIUpdate"},"name":"CatUpdate","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Fri, 28 Mar 2025 17:07:14 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_pet_api.py::TestPetApi::test_pet[281273083-1-BARNI-Cat] (call)
+Time: 2025-03-28 20:07:13.926378
+Request method: DELETE
+Request URL: https://petstore.swagger.io/v2/pet/281273083
+
+Response code: 200
+Response text: {"code":200,"type":"unknown","message":"281273083"}
+Response headers: {'Date': 'Fri, 28 Mar 2025 17:07:15 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_pet_api.py::TestPetApi::test_pet[281273083-1-BARNI-Cat] (call)
+Time: 2025-03-28 20:07:15.192314
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/281273083
+
+Response code: 404
+Response text: {"code":1,"type":"error","message":"Pet not found"}
+Response headers: {'Date': 'Fri, 28 Mar 2025 17:07:16 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
