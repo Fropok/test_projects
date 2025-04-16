@@ -1,0 +1,169 @@
+
+-----
+Test: tests/test_add_pet.py::test_add_pet[20421403-category0-Barni] (call)
+Time: 2025-04-16 03:09:05.617121
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/pet
+
+Response code: 200
+Response text: {"id":20421403,"category":{"id":21,"name":"cat"},"name":"Barni","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:06 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_add_pet.py::test_add_pet[20421403-category0-Barni] (call)
+Time: 2025-04-16 03:09:06.242000
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/20421403
+
+Response code: 200
+Response text: {"id":20421403,"category":{"id":21,"name":"cat"},"name":"Barni","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:06 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_add_pet.py::test_add_pet[20421403-category0-Barni] (teardown)
+Time: 2025-04-16 03:09:06.883109
+Request method: DELETE
+Request URL: https://petstore.swagger.io/v2/pet/20421403
+
+Response code: 200
+Response text: {"code":200,"type":"unknown","message":"20421403"}
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:07 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_delete_pet.py::test_delete_pet[20421403-category0-Barni] (call)
+Time: 2025-04-16 03:09:07.509099
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/pet
+
+Response code: 200
+Response text: {"id":20421403,"category":{"id":21,"name":"cat"},"name":"Barni","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:08 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_delete_pet.py::test_delete_pet[20421403-category0-Barni] (call)
+Time: 2025-04-16 03:09:08.155097
+Request method: DELETE
+Request URL: https://petstore.swagger.io/v2/pet/20421403
+
+Response code: 404
+Response text: 
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:08 GMT', 'Content-Length': '0', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_delete_pet.py::test_delete_pet[20421403-category0-Barni] (teardown)
+Time: 2025-04-16 03:09:08.808777
+Request method: DELETE
+Request URL: https://petstore.swagger.io/v2/pet/20421403
+
+Response code: 404
+Response text: 
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:09 GMT', 'Content-Length': '0', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_pet_by_id.py::test_pet_by_id[20421403-category0-Barni] (call)
+Time: 2025-04-16 03:09:09.455590
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/pet
+
+Response code: 200
+Response text: {"id":20421403,"category":{"id":21,"name":"cat"},"name":"Barni","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:10 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_pet_by_id.py::test_pet_by_id[20421403-category0-Barni] (call)
+Time: 2025-04-16 03:09:10.084061
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/20421403
+
+Response code: 200
+Response text: {"id":20421403,"category":{"id":21,"name":"cat"},"name":"Barni","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:10 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_pet_by_id.py::test_pet_by_id[20421403-category0-Barni] (teardown)
+Time: 2025-04-16 03:09:10.681623
+Request method: DELETE
+Request URL: https://petstore.swagger.io/v2/pet/20421403
+
+Response code: 200
+Response text: {"code":200,"type":"unknown","message":"20421403"}
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:11 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_update_pet.py::test_update_pet[20421403-category0-Barni] (call)
+Time: 2025-04-16 03:09:11.281172
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/pet
+
+Response code: 200
+Response text: {"id":20421403,"category":{"id":21,"name":"cat"},"name":"Barni","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:11 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_update_pet.py::test_update_pet[20421403-category0-Barni] (call)
+Time: 2025-04-16 03:09:11.894819
+Request method: PUT
+Request URL: https://petstore.swagger.io/v2/pet
+
+Response code: 200
+Response text: {"id":20421403,"category":{"id":22,"name":"catUP"},"name":"BarniUP","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:12 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_update_pet.py::test_update_pet[20421403-category0-Barni] (call)
+Time: 2025-04-16 03:09:12.523042
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/20421403
+
+Response code: 200
+Response text: {"id":20421403,"category":{"id":21,"name":"cat"},"name":"Barni","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:13 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_update_pet.py::test_update_pet[20421403-category0-Barni] (teardown)
+Time: 2025-04-16 03:09:13.148965
+Request method: DELETE
+Request URL: https://petstore.swagger.io/v2/pet/20421403
+
+Response code: 200
+Response text: {"code":200,"type":"unknown","message":"20421403"}
+Response headers: {'Date': 'Wed, 16 Apr 2025 00:09:13 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+-----
